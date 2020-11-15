@@ -1,0 +1,19 @@
+# Place "config.txt" changes (dtparam, dtoverlay, disable_overscan, etc.) in
+# this file. Please refer to the README file for a description of the various
+# configuration files on the boot partition.
+
+# customizing hdmi parameters for the TV in my office
+# docs for my TV can be found at
+# https://www.insigniaproducts.com/pdp/NS-32D220NA16/1854147
+#
+# config.txt docs can be found at
+ß# https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
+#
+hdmi_group=1
+hdmi_mode=15
+hdmi_drive=2
+hdmi_ignore_cec_init=0
+hdmi_ignore_cec=1
+
+#hdmi_ignore_edid=0xa5000080
+#hdmi_ignore_edid:1=0xa5000080
